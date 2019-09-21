@@ -13,4 +13,14 @@ Using the computer to convert from white/black subpixels -> white pixel and all 
 This code is done but the command line interface doesn't really exist yet.
 
 Different values of k can be set on line 88 of parsing.py and the code in that area can be modified to create different files and images.
-This implementation only works for k of k implementations not k of n. This is because k of n is a nightmare
+This implementation only works for k of k implementations not k of n. This is because k of n is a nightmare.
+
+#### Contributors
+- Matthew Rhea
+- Eugene Chou
+- Timothy Lo
+- Sabrina Tsui
+- Sabrina Au
+- David Atwell
+- Matthew Gray
+- Justin Raizes
