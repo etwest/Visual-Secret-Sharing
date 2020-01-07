@@ -8,7 +8,7 @@ will split the image file into k shares and then combine these shares in the fol
 
 Using the computer to convert from white/black subpixels -> white pixel and all black -> black pixel this is result.jpg
 
-'Manually' stacking the shares, this is stacked.jpg
+'Manually' stacking the shares, this is stacked.jpg and shows the true benefit of VSS: the shares my be printed and physically stacked.
 ### NOTE
 This code is done but the command line interface doesn't really exist yet.
 
