@@ -1,3 +1,10 @@
+"""
+Made by Eugene Chou and Timothy Lo
+Supervised and finished by Evan West
+
+Part of the CS Makerspace VSS Project.
+"""
+
 import sys
 import argparse
 import numpy as np

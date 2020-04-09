@@ -2,7 +2,13 @@
 A python implementation of the image secret sharing encryption method described in the Naor-Shamir Visual Cryptography paper, found here: https://link.springer.com/content/pdf/10.1007%2FBFb0053419.pdf
 
 ### USAGE
-python parsing.py image 
+#### Virtual Environment and Packages
+- Setup a python2 virtual environment using `python2.7 -m virtualenv kenv`.
+- Activate the virtual environment `source kenv/bin/activate`
+- Install dependencies `pip install -r requirements.txt`
+
+#### Run
+python2.7 parsing.py image 
 
 will split the image file into k shares and then combine these shares in the following ways:
 

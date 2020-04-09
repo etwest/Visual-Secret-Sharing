@@ -3,8 +3,9 @@
  * K out of K Scheme. ( For now. )
  *
  *
- *  Made by Swagbrina, Superbrina, Romeo.
+ *  Made by Sabrina Au, Sabrina Tsui, Romeo.
  *  Supervised by Matthew Rhea.
+ *  Finished by Evan West
  *
  *  Part of the CS Makerspace VSS Project.
  *
