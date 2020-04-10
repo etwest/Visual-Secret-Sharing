@@ -8,7 +8,7 @@ A python implementation of the image secret sharing encryption method described 
 - Install dependencies `pip install -r requirements.txt`
 
 #### Run
-Execute the follwoing command within the virtual machine: `python2.7 parsing.py image` will split the image file into k shares and then combine these shares in the following ways:
+Execute the follwoing command within the virtual machine: `python2.7 parsing.py image` it will split the image file into k shares and then combine these shares in the following ways:
 - Using the computer to convert from white/black subpixels -> white pixel and all black -> black pixel this is `result.jpg`
 - 'Manually' stacking the shares, this is `stacked.jpg` and shows the true benefit of VSS: the shares my be printed and physically stacked.
 ### NOTE
