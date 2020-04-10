@@ -22,7 +22,7 @@ This code is done but the command line interface doesn't really exist yet.
 
 Different values of `k` can be set on `line 88` of `parsing.py` and the code in that area can be modified to create different files and images. `k` is the number of shares created by the algorithm, increasing this number increases the complexity of all the calculations and the size of the image. It is not recommended to increase this above 10. 
 
-This implementation only works for k of k and not k of n. This is because k of n is a nightmare.
+This implementation only works for k of k and not k of n. This is because k of n is a nightmare. See the paper.
 
 ## Contributors
 - Matthew Rhea
