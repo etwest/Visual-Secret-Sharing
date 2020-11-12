@@ -30,6 +30,7 @@ This implementation only works for k of k and not k of n. This is because k of n
 - Timothy Lo
 - Sabrina Tsui
 - Sabrina Au
+- Romeo Jung
 - David Atwell
 - Matthew Gray
 - Justin Raizes
