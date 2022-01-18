@@ -61,7 +61,7 @@ def flip_bits(bits):
 
 
 def paste_images(background, foreground):
-# Pastes foreground image on background
+	# Pastes foreground image on background
 	return Image.alpha_composite(background, foreground).save("stacked-img.png")
 
 def from_2D_to_img(Matrix):
@@ -100,21 +100,21 @@ if __name__ == '__main__':
 	shares = kofk.koutofk_to3D_Matrix(k,Matrix)
 	for i in range(k):
 		from_2D_to_img(shares[i])
-		imwrite("share"+str(i)+".jpg", shares[i])
+		imwrite("share"+str(i)+".png", shares[i])
 	outMatrix = kofk.toImage_fr3D(k, shares)
 	from_2D_to_img(outMatrix)
-	imwrite('result.jpg', outMatrix)
+	imwrite('result.png', outMatrix)
 	from_2D_to_img(Matrix)
-	imwrite('beforeShare.jpg', Matrix)
+	imwrite('beforeShare.png', Matrix)
 
 	# Stacked2 = [shares[0], shares[1]]
 	outMatrix = kofk.stack_images(shares)
 	from_2D_to_img(outMatrix)
-	imwrite('stacked.jpg', outMatrix)
+	imwrite('stacked.png', outMatrix)
 
 	# outMatrix = kofk.stack_images(Stacked2)
 	# from_2D_to_img(outMatrix)
-	# imwrite('stacked2.jpg', outMatrix)
+	# imwrite('stacked2.png', outMatrix)
 
 	# if args.s:
 	# 	inp = Image.open(args.i[0])										# Open image
